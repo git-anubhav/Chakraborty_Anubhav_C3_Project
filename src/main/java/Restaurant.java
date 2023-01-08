@@ -2,6 +2,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Restaurant {
     private String name;
@@ -66,6 +67,10 @@ public class Restaurant {
 
     public String getName() {
         return name;
+    }
+
+    public int getTotalOrderValue(List<String> orderedItemNames){
+        return -1;
     }
 
 }
